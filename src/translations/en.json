@@ -1,0 +1,190 @@
+{
+    "homeheader": {
+        "specialty": "Specialist",
+        "specialty-description": "Find a doctor on demand",
+        "place": "Medical facility",
+        "place-description": "Choose a hospital, clinic",
+        "doctor": "doctor",
+        "doctor-description": "Choose a good doctor",
+        "package": "Checkup package",
+        "package-description": "General health check",
+        "help": "help",
+        "language": "Language",
+        "vietnamese": "Vietnamese",
+        "english": "English"
+    },
+
+    "homebanner": {
+        "main-title": "Medical platform",
+        "description": "Take care of your health",
+        "specialty": "Specialized examination",
+        "remote-exam": "Remote examination",
+        "medical-test": "Medical test",
+        "general-health": "General examination",
+        "mental-health": "Mental health",
+        "medical-product": "Medical products",
+        "more": "more",
+        "top-doctor": "Featured doctor of the week",
+        "Specialist": {
+            "main-title": "Popular specialties",
+            "eyes": "Eye specialist",
+            "spine": "spine department",
+            "pediatrics": "pediatrics",
+            "mental": "Psychosis",
+            "obstetrics": "Obstetrics and Gynecology",
+            "ultrasound": "ultrasound",
+            "ear-nose-throat": "Ear, nose and throat",
+            "nerve": "Department of Neurology",
+            "digest": "digest",
+            "cardiology": "cardiology",
+            "bone": "Department of Orthopedics",
+            "traditional-medicine": "traditional medicine"
+        },
+
+        "doctor-page": {
+            "schedule": "The medical examination schedule",
+            "no-schedule": "There are no medical examination schedule",
+            "booking": "book an appointment",
+            "clinic": {
+                "address": "The clinic's address",
+                "price": "The medical examination price",
+                "hide": "hide the price",
+                "show": "show the price",
+                "payment-methods": "The payment methods"
+            },
+            "information": "The medical examination information",
+            "name": "Full name",
+            "phone": "The phone number",
+            "email": "The email address",
+            "address": "The address",
+            "reason": "The reason for examination",
+            "gender": "Your gender",
+            "birth": "Date of birth"
+        }
+    },
+
+    "common": {
+        "add": "Add",
+        "edit": "Edit",
+        "delete": "Delete",
+        "decentralize": "Decentralize",
+        "close": "Close",
+        "save": "Save",
+        "update": "Update",
+        "refresh": "Refresh",
+        "accept": "Accept",
+        "confirm": "Confirm",
+        "confirm-this-task": "Are you sure to process this task?",
+        "fail-to-load-data": "Fail to load data",
+        "unknown-error": "There was an error",
+        "internal-server-error": "Internal server error",
+        "bad-request": "Bad request",
+        "forbiden-request": "Invalid input data",
+        "fail-to-load-all-code": "Fail to load data from allcode",
+        "sum": "Sum",
+        "date-range-invalid": "Date range invalid"
+    },
+    "login": {
+        "login": "Login",
+        "username": "Username",
+        "password": "Password",
+        "userpass-wrong": "Invalid username or password!"
+    },
+    "menu": {
+        "system": {
+            "header": "System",
+            "system-administrator": {
+                "header": "System Administrator",
+                "user-manage": "User manage",
+                "user-redux": "Manage user by redux",
+                "register-package-group-or-account": "Register service package for group/account"
+            },
+            "system-parameter": {
+                "header": "System-parameter"
+            }
+        },
+
+        "admin": {
+            "welcome": "Welcome",
+            "manage-user": "User",
+            "manage-doctor": "Doctor managed",
+            "manage-admin": "Admin managed",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "clinic": "Clinic",
+            "manage-clinic": "Clinic managed",
+            "specialist": "Specialist",
+            "manage-specialist": "Specialist managed",
+            "handbook": "Handbook",
+            "manage-handbook": "Handbook managed",
+            "crud-keyword": {
+                "email": "Email",
+                "password": "Password",
+                "first-name": "First name",
+                "last-name": "Last name",
+                "address": "Address",
+                "phone-number": "Phone number",
+                "gender": "Gender",
+                "role": "Role",
+                "position": "Position",
+                "image": "Image"
+            }
+        },
+        "doctor": {
+            "manage-schedule": "Schedule's manage"
+        }
+    },
+    "system": {
+        "user-manage": {
+            "fail-to-load-fouser": "Fail to load system users list",
+            "user-id": "User ID",
+            "usertype": "User type",
+            "username": "Username",
+            "fullname": "Fullname",
+            "mobile": "Phone",
+            "email": "Email",
+            "status": "Status",
+            "add-user": "Add user",
+            "edit-user": "Edit user information",
+            "password": "Password",
+            "retype-password": "Retype password",
+            "add-user-success": "Add user successfully",
+            "edit-user-success": "Change user information successfully",
+            "add-user-fail": "Fail to add user",
+            "edit-user-fail": "Fail to change user information",
+            "del-user-success": "Delete user successfully",
+            "del-user-fail": "Fail to delete user",
+            "invalid-input": {
+                "username": "Please fill in username",
+                "fullname": "Please fill in fullname",
+                "password": "Please fill in password"
+            },
+            "sure-delete-user": "Are you sure to delete this user?"
+        },
+
+        "doctor-manage": {
+            "title": "Doctor's manage",
+            "doctor-name": "Choose the doctor",
+            "introductory-information": "Introductory information",
+            "price": "The price",
+            "payment-method": "Payment method",
+            "city": "City",
+            "clinic-name": "Clinic name",
+            "clinic-address": "Clinic address",
+            "note": "Note",
+            "specialist": "Chooes the specialist",
+            "clinic": "Choose the clinic"
+        },
+        "specialist-manage": {
+            "title": "Specialist's Manage",
+            "specialist-name": "Specialist's name",
+            "specialist-image": "Specialist's image"
+        },
+        "clinic-manage": {
+            "title": "Clinic's manage",
+            "clinic-name": "Clinic's name",
+            "clinic-address": "Clinic's address",
+            "clinic-image": "Clinic's image"
+        }
+    }
+}

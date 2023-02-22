@@ -1,0 +1,25 @@
+.doctor-manage {
+    label {
+        font-weight: 600;
+    }
+    input {
+        outline: none !important;
+    }
+    .doctor-select {
+    }
+    .doctor-description {
+        display: flex;
+        flex-direction: column;
+        label {
+            font-weight: 600;
+        }
+
+        textarea {
+            outline: none;
+        }
+    }
+
+    .doctor-manage-submit {
+        font-size: 16px;
+    }
+}

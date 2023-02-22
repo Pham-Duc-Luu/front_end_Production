@@ -1,0 +1,190 @@
+{
+    "homeheader": {
+        "specialty": "Chuyên khoa",
+        "specialty-description": "Tìm bác sĩ theo yêu cầu",
+        "place": "Cở sở y tế",
+        "place-description": "Chọn bệnh viện, phòng khám",
+        "doctor": "Bác sĩ",
+        "doctor-description": "Chọn bác sĩ giỏi",
+        "package": "Gói khám",
+        "package-description": "Khám sức khỏe tổng quát",
+        "help": "Hỗ trợ",
+        "language": "Ngôn ngữ",
+        "vietnamese": "Tiếng Việt",
+        "english": "Tiếng Anh"
+    },
+
+    "homebanner": {
+        "main-title": "Nền tảng y tế",
+        "description": "Chăm sóc sức khỏe cho bạn",
+        "specialty": "Khám chuyên khoa",
+        "remote-exam": "Khám từ xa",
+        "medical-test": "Xét nghiệm y học",
+        "general-health": "Khám tổng quát",
+        "mental-health": "Sức khỏe tinh thần",
+        "medical-product": "Sản phẩm y tế",
+        "more": "Xem thêm",
+        "top-doctor": "Bác sĩ nổi bật trong tuần",
+        "Specialist": {
+            "main-title": "Các chuyên khoa phổ biến",
+            "eyes": "Khoa mắt",
+            "spine": "Khoa cột sống",
+            "pediatrics": "Khoa nhi",
+            "mental": "Rối loạn tâm thần",
+            "obstetrics": "Sản phụ khoa",
+            "ultrasound": "Siêu âm",
+            "ear-nose-throat": "Tai mũi họng",
+            "nerve": "Khoa thần kinh",
+            "digest": "Tiêu hóa",
+            "cardiology": "Khoa tim mạch",
+            "bone": "Khoa xương khớp",
+            "traditional-medicine": "Y học cổ truyền"
+        },
+        "doctor-page": {
+            "schedule": "Lịch khám bệnh",
+            "no-schedule": "Không có lịch khám",
+            "booking": "đặt lịch hẹn",
+
+            "clinic": {
+                "address": "Địa chỉ phòng khám",
+                "price": "Giá khám bệnh",
+                "hide": "Ẩn giá",
+                "show": "Xem giá",
+                "payment-methods": "Phương thức thanh toán"
+            },
+            "information": "The medical examination information",
+            "name": "Full name",
+            "phone": "The phone number",
+            "email": "The email address",
+            "address": "The address",
+            "reason": "The reason for examination",
+            "gender": "Your gender",
+            "birth": "Date of birth"
+        }
+    },
+    "common": {
+        "add": "Thêm",
+        "edit": "Sửa",
+        "delete": "Xóa",
+        "decentralize": "Phân quyền",
+        "close": "Đóng",
+        "save": "Lưu",
+        "update": "Cập nhập",
+        "refresh": "Refresh",
+        "accept": "Chấp nhận",
+        "confirm": "Xác nhận",
+        "confirm-this-task": "Bạn có chắc chắn thực hiện tác vụ này?",
+        "fail-to-load-data": "Không thể tải về dữ liệu",
+        "unknown-error": "Có lỗi xảy ra",
+        "internal-server-error": "Lỗi kết nối",
+        "bad-request": "Yêu cầu không hợp lệ",
+        "forbiden-request": "Thông tin truyền vào không hợp lệ",
+        "fail-to-load-all-code": "Không thể tải về dữ liệu allcode",
+        "sum": "Tổng",
+        "date-range-invalid": "Khoảng thời gian không hợp lệ"
+    },
+    "login": {
+        "login": "Đăng nhập",
+        "username": "Tên đăng nhập",
+        "password": "Mật khẩu",
+        "userpass-wrong": "Sai tên đăng nhập hoặc mật khẩu!"
+    },
+    "menu": {
+        "system": {
+            "header": "Hệ thống",
+            "system-administrator": {
+                "header": "Quản trị hệ thống",
+                "user-manage": "Quản lý người sử dụng",
+                "user-redux": "Quản lý user redux",
+                "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản"
+            },
+            "system-parameter": {
+                "header": "Tham số hệ thống"
+            }
+        },
+        "admin": {
+            "welcome": "Chào mừng",
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lí bác sĩ",
+            "manage-admin": "Quản lí admin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lí phòng khám",
+            "specialist": "Chuyên khoa",
+            "manage-specialist": "Quản lí chuyên khoa",
+            "handbook": "Sổ tay",
+            "manage-handbook": "Quản lí sổ tay",
+            "crud-keyword": {
+                "email": "Email",
+                "password": "Mật khẩu",
+                "first-name": "Họ",
+                "last-name": "Tên",
+                "address": "Địa chỉ",
+                "phone-number": "Số điện thoại",
+                "gender": "Giới tính",
+                "role": "Vai trò",
+                "position": "Vị trí",
+                "image": "Hình ảnh"
+            }
+        },
+        "doctor": {
+            "manage-schedule": "Quản lí danh sách khám bệnh"
+        }
+    },
+    "system": {
+        "user-manage": {
+            "fail-to-load-fouser": "Không thể tải về danh sách người dùng",
+            "user-id": "Mã người sử dụng",
+            "usertype": "Loại người dùng",
+            "username": "Tên người dùng",
+            "fullname": "Tên đầy đủ",
+            "mobile": "Số điện thoại",
+            "email": "Email",
+            "status": "Trạng thái",
+            "add-user": "Thêm người dùng",
+            "edit-user": "Sửa thông tin người dùng",
+            "password": "Mật khẩu",
+            "retype-password": "Nhập lại mật khẩu",
+            "add-user-success": "Thêm người dùng thành công",
+            "edit-user-success": "Thay đổi thông tin người dùng thành công",
+            "add-user-fail": "Thêm người dùng thất bại",
+            "edit-user-fail": "Thay đổi thông tin người dùng thất bại",
+            "del-user-success": "Xóa người dùng thành công",
+            "del-user-fail": "Xóa người dùng thất bại",
+            "invalid-input": {
+                "username": "Quý khách vui lòng nhập tên người dùng",
+                "fullname": "Quý khách vui lòng nhập tên đầy đủ",
+                "password": "Quý khách vui lòng nhập mật khẩu"
+            },
+            "sure-delete-user": "Bạn có chắc chắn muốn xóa người dùng này?"
+        },
+
+        "doctor-manage": {
+            "title": "Quản lí bác sỹ",
+
+            "doctor-name": "Chọn bác sỹ",
+            "introductory-information": "Thông tin giới thiệu",
+            "price": "Chọn giá",
+            "payment-method": "Phương thức thanh toán",
+            "city": "Chọn thành phố",
+            "clinic-name": "Tên phòng khám",
+            "clinic-address": "Địa chỉ phòng khám",
+            "note": "Ghi chú",
+            "specialist": "Chọn chuyên khoa",
+            "clinic": "Chọn phòng khám"
+        },
+        "specialist-manage": {
+            "title": "Quản lí chuyên khoa",
+            "specialist-name": "Tên chuyên khoa",
+            "specialist-image": "Ảnh chuyên khoa"
+        },
+
+        "clinic-manage": {
+            "title": "Quản lí phòng khám",
+            "clinic-name": "Tên phòng khám",
+            "clinic-address": "Địa chỉ phòng khám",
+            "clinic-image": "Ảnh phòng khám"
+        }
+    }
+}
