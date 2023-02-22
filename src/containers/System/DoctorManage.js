@@ -88,16 +88,16 @@ class DoctorManage extends Component {
         if (this.props.getDoctorDetailByIdResponse !== prevProps.getDoctorDetailByIdResponse) {
             this.setState({
                 contentHTML:
-                    this.props.getDoctorDetailByIdResponse.data &&
-                    this.props.getDoctorDetailByIdResponse.data.MarkDown &&
-                    this.props.getDoctorDetailByIdResponse.data.MarkDown.contentHTML !== null
-                        ? this.props.getDoctorDetailByIdResponse.data.MarkDown.contentHTML
+                    this.props.getDoctorDetailByIdResponse?.data &&
+                    this.props.getDoctorDetailByIdResponse?.data?.MarkDown &&
+                    this.props.getDoctorDetailByIdResponse?.data?.MarkDown?.contentHTML !== null
+                        ? this.props.getDoctorDetailByIdResponse?.data.MarkDown.contentHTML
                         : '',
                 contentMarkDown:
-                    this.props.getDoctorDetailByIdResponse.data &&
-                    this.props.getDoctorDetailByIdResponse.data.MarkDown &&
-                    this.props.getDoctorDetailByIdResponse.data.MarkDown.contentMarkDown !== null
-                        ? this.props.getDoctorDetailByIdResponse.data.MarkDown.contentMarkDown
+                    this.props.getDoctorDetailByIdResponse?.data &&
+                    this.props.getDoctorDetailByIdResponse?.data?.MarkDown &&
+                    this.props.getDoctorDetailByIdResponse?.data?.MarkDown?.contentMarkDown !== null
+                        ? this.props.getDoctorDetailByIdResponse?.data?.MarkDown?.contentMarkDown
                         : '',
                 description:
                     this.props.getDoctorDetailByIdResponse.data &&

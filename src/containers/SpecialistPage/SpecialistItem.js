@@ -10,6 +10,7 @@ import HomeHeader from '../HomePage/HomeHeader';
 import Footer from '../HomePage/Footer/Footer';
 import * as actions from '../../store/actions/index';
 import ClinicInfo from '../Patient/Doctor/ClinicInfo';
+import { withRouter } from 'react-router';
 
 class SpecialistItem extends Component {
     constructor(props) {
@@ -138,7 +139,15 @@ class SpecialistItem extends Component {
                                 src={this.state.allDoctorSpecialist?.User?.image}
                                 alt="An example image"
                             ></img>
-                            <span>Xem them</span>
+                            <span
+                                onClick={() => {
+                                    this.props.history.push(
+                                        `/detail-doctor/${+this.props.allDoctorSpecialist.doctorId}`,
+                                    );
+                                }}
+                            >
+                                Xem them
+                            </span>
                         </div>
                         <div className="doctor m-3">
                             <div className="doctor-name">bac sy {this.state.allDoctorSpecialist?.User?.lastName}</div>
@@ -268,4 +277,4 @@ const mapDispatchToProps = (dispatch) => {
     };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(SpecialistItem);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(SpecialistItem));

@@ -110,12 +110,12 @@ class DoctorPage extends Component {
                 image: this.props.getDoctorDetailByIdResponse?.data?.image,
                 firstName: this.props.getDoctorDetailByIdResponse?.data?.firstName,
                 lastName: this.props.getDoctorDetailByIdResponse?.data?.lastName,
-                contentHTML: this.props.getDoctorDetailByIdResponse?.data?.MarkDown.contentHTML,
-                contentMarkDown: this.props.getDoctorDetailByIdResponse?.data?.MarkDown.contentMarkDown,
-                description: this.props.getDoctorDetailByIdResponse?.data?.MarkDown.description,
-                doctorId: this.props.getDoctorDetailByIdResponse?.data?.MarkDown.doctorId,
-                specialtyId: this.props.getDoctorDetailByIdResponse?.data?.MarkDown.specialtyId,
-                clinicId: this.props.getDoctorDetailByIdResponse?.data?.MarkDown.clinicId,
+                contentHTML: this.props.getDoctorDetailByIdResponse?.data?.MarkDown?.contentHTML,
+                contentMarkDown: this.props.getDoctorDetailByIdResponse?.data?.MarkDown?.contentMarkDown,
+                description: this.props.getDoctorDetailByIdResponse?.data?.MarkDown?.description,
+                doctorId: this.props.getDoctorDetailByIdResponse?.data?.MarkDown?.doctorId,
+                specialtyId: this.props.getDoctorDetailByIdResponse?.data?.MarkDown?.specialtyId,
+                clinicId: this.props.getDoctorDetailByIdResponse?.data?.MarkDown?.clinicId,
                 positionData: this.props.getDoctorDetailByIdResponse?.data?.positionData,
             });
         }
