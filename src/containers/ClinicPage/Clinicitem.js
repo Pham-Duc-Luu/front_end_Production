@@ -207,6 +207,11 @@ class ClinicItem extends Component {
                                                         class="btn btn-primary btn-lg"
                                                         onClick={() => {
                                                             // this.toggle(item);
+                                                            this.props.history.push(
+                                                                `/detail-doctor/${+this.props.allDoctorSpecialist
+                                                                    .doctorId}`,
+                                                            );
+
                                                             this.setState({
                                                                 patientDate: item.date,
                                                                 patientTimeType: item.timeType,

@@ -74,7 +74,7 @@ class Specialist extends Component {
         };
 
         return (
-            <div className="specailist-carousel m-5 p-5">
+            <div className="specailist-carousel m-5 p-5" id="specailist-carousel">
                 <div className="carousel-header">
                     <div className="title text-secondary">
                         {<FormattedMessage id="homebanner.Specialist.main-title" />}

@@ -146,7 +146,7 @@ class SpecialistItem extends Component {
                                     );
                                 }}
                             >
-                                Xem them
+                                <FormattedMessage id="homebanner.more" />
                             </span>
                         </div>
                         <div className="doctor m-3">
@@ -207,6 +207,10 @@ class SpecialistItem extends Component {
                                                         class="btn btn-primary btn-lg"
                                                         onClick={() => {
                                                             // this.toggle(item);
+                                                            this.props.history.push(
+                                                                `/detail-doctor/${+this.props.allDoctorSpecialist
+                                                                    .doctorId}`,
+                                                            );
                                                             this.setState({
                                                                 patientDate: item.date,
                                                                 patientTimeType: item.timeType,

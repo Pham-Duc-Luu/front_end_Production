@@ -57,7 +57,7 @@ class DoctorManage extends Component {
     componentDidUpdate(prevProps, prevState, snapshot) {
         if (this.props.allDoctor !== prevProps.allDoctor) {
             this.setState({
-                doctorList: this.props.allDoctor.map((value, index) => {
+                doctorList: this.props.allDoctor?.map((value, index) => {
                     return { value: value, label: `${value.firstName} ${value.lastName}` };
                 }),
             });

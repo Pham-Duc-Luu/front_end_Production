@@ -114,6 +114,18 @@ class HomeHeader extends Component {
                             <FormattedMessage id="homeheader.help" />
                         </div>
                     </div>
+                    <button
+                        type="button"
+                        class="btn btn-secondary mx-1 px-1"
+                        onClick={() => {
+                            this.props.history.push('/system/');
+                        }}
+                    >
+                        <FormattedMessage id="homeheader.login" />
+                    </button>
+                    {/* <button type="button" class="btn btn-secondary mx-1 px-1">
+                        <FormattedMessage id="homeheader.sign-up" />
+                    </button> */}
                 </div>
             </div>
         );

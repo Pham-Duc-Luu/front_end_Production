@@ -5,6 +5,7 @@ import Slider from 'react-slick';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { FormattedMessage } from 'react-intl';
 import './Clinic.scss';
 
 import chuyenkhoamat from '../../../assets/images/chuyen-khoa-mat.jpg';
@@ -78,8 +79,12 @@ class Clinic extends Component {
             <div className="bg-light">
                 <div className="clinic-carousel m-5 p-5">
                     <div className="carousel-header">
-                        <div className="title text-secondary">Cac Chuyen Khoa Pho Bien</div>
-                        <div className="more bg-light border border-dark rounded">Xem Them</div>
+                        <div className="title text-secondary">
+                            <FormattedMessage id="homebanner.clinic" />
+                        </div>
+                        <div className="more bg-light border border-dark rounded">
+                            <FormattedMessage id="homebanner.more" />
+                        </div>
                     </div>
                     <Slider {...settings}>
                         {this.state.clinicArr.length > 0 &&

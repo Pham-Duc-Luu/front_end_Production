@@ -83,7 +83,7 @@ class SpecialistPage extends Component {
 
     componentDidUpdate(prevProps) {
         if (this.props.language !== prevProps.language) {
-            this.handleCreateListOfDay(this.props.language);
+            // this.handleCreateListOfDay(this.props.language);
         }
         if (
             this.props.getAllDoctorBelongToSpecialistRes !== prevProps.getAllDoctorBelongToSpecialistRes &&

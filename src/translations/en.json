@@ -11,7 +11,9 @@
         "help": "help",
         "language": "Language",
         "vietnamese": "Vietnamese",
-        "english": "English"
+        "english": "English",
+        "login": "Login",
+        "sign-up": "Sign up"
     },
 
     "homebanner": {
@@ -25,6 +27,8 @@
         "medical-product": "Medical products",
         "more": "more",
         "top-doctor": "Featured doctor of the week",
+        "clinic": "Famous clinics",
+
         "Specialist": {
             "main-title": "Popular specialties",
             "eyes": "Eye specialist",

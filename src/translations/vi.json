@@ -11,7 +11,9 @@
         "help": "Hỗ trợ",
         "language": "Ngôn ngữ",
         "vietnamese": "Tiếng Việt",
-        "english": "Tiếng Anh"
+        "english": "Tiếng Anh",
+        "login": "Đăng nhập",
+        "sign-up": "Đăng ký"
     },
 
     "homebanner": {
@@ -25,6 +27,7 @@
         "medical-product": "Sản phẩm y tế",
         "more": "Xem thêm",
         "top-doctor": "Bác sĩ nổi bật trong tuần",
+        "clinic": "Các phòng khám nổi tiếng",
         "Specialist": {
             "main-title": "Các chuyên khoa phổ biến",
             "eyes": "Khoa mắt",
